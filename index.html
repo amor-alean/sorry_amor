@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>I'm Sorry ❤️</title>  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">  
+    <style>  
+        body {  
+            background-color: #f0f4f8;  
+        }  
+    </style>  
+</head>  
+<body class="flex flex-col items-center justify-center min-h-screen px-4">  
+    <div class="text-center">  
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">I'm Sorry, Amor! ❤️</h1>  
+        <p class="text-lg mb-6">I want to express how much you mean to me.</p>  
+        <a href="#poem" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">Read My Poem</a>  
+    </div>  
+
+    <div id="poem" class="mt-10">  
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4">A Poem for You 🌹</h2>  
+        <p class="text-base md:text-lg mb-4">लफ्ज़ नहीं मिले के ❌</p>  
+        <p class="text-base md:text-lg mb-4">मैं अपने दिल की बात कह पाऊं 🗣️</p>  
+        <p class="text-base md:text-lg mb-4">कह पाऊं कि मै डरता हूं तुम्हे खोने से 😟</p>  
+        <p class="text-base md:text-lg mb-4">कह पाऊं कि कमियां बहुत है मुझमें 😔</p>  
+        <p class="text-base md:text-lg mb-4">कह पाऊं कि शायद काबिल नहीं हूं मैं तेरे लिए ….. 1 💔</p>  
+
+        <p class="text-base md:text-lg mb-4">पर सच है कि ☝️</p>  
+        <p class="text-base md:text-lg mb-4">दर्द इतना है कि 😢</p>  
+        <p class="text-base md:text-lg mb-4">अकेले ना सहा जाएगा ☹️</p>  
+        <p class="text-base md:text-lg mb-4">महफ़िल में हंसता हूं और तन्हाई में रहता हूं ….2 🎭</p>  
+
+        <p class="text-base md:text-lg mb-4">बड़ी हिम्मत दी है तेरे इश्क़ ने , 💪</p>  
+        <p class="text-base md:text-lg mb-4">प्यार के उस पंछी को कभी उड़ने मत देना, 🕊️</p>  
+        <p class="text-base md:text-lg mb-4">अगर सजा देनी है, ⚖️</p>  
+        <p class="text-base md:text-lg mb-4">तो देना मंजूर होगी, 🙏</p>  
+        <p class="text-base md:text-lg mb-4">बस सजा में हो सके तो माफी ही देना …3 🥺</p>  
+
+        <a href="#" id="surpriseButton" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition mt-4">Surprise for You! 🎉</a>  
+    </div>  
+
+    <div id="surprise" class="mt-10 hidden">  
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4">Surprise! 🎁</h2>  
+        <p class="text-base md:text-lg mb-4">I have a little surprise for you!</p>  
+        <p class="text-base md:text-lg mb-4">Here’s a cute meme to make you smile:</p>  
+        <div class="tenor-gif-embed" data-postid="17264888133987174267" data-share-method="host" data-aspect-ratio="1.23288" data-width="100%">  
+            <a href="https://tenor.com/view/peach-goma-gif-17264888133987174267">Peach Goma GIF</a> from <a href="https://tenor.com/search/peach+goma-gifs">Peach Goma GIFs</a>  
+        </div>   
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>  
+        <p class="text-base md:text-lg mb-4">Remember, you are my everything! 💕</p>
+        <p class="text-base md:text-lg mb-4">Please yarr gussa nhi kijiye maff kr do 💕</p>    
+        <a href="#" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">Back to Home</a>  
+    </div>  
+
+    <!-- Audio Element -->  
+    <audio id="loveAudio" src="tum-hi-ho-aashiqui-2-musiclinda-com-1074.mp3" preload="auto"></audio>  
+
+    <script>  
+        // JavaScript to play the audio and reveal the surprise when the button is clicked  
+        document.getElementById('surpriseButton').onclick = function(event) {  
+            event.preventDefault(); // Prevent anchor default behavior  
+            document.getElementById('surprise').classList.remove('hidden'); // Show the surprise section  
+            document.getElementById('loveAudio').play(); // Play the audio  
+        };  
+    </script>  
+</body>  
+</html>
